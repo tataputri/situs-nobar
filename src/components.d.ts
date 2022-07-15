@@ -8,7 +8,6 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     BottomNav: typeof import('./components/BottomNav.vue')['default']
-    copy: typeof import('./components/Counter copy.vue')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     DescAfterLogo: typeof import('./components/DescAfterLogo.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
